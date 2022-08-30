@@ -1,0 +1,26 @@
+{
+  "name": "anil-nodejs-blockchain-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anil Patidar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ipfs-api": "^26.1.2",
+    "mongod": "^2.0.0",
+    "mongodb": "^4.9.0",
+    "nodemon": "^2.0.19",
+    "short-id": "^0.1.0-1",
+    "shortid": "^2.2.16",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.7.5"
+  }
+}
